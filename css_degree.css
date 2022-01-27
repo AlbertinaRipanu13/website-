@@ -1,0 +1,112 @@
+CSS DEGREE
+
+ header {
+  background-color: #F5DD8E;
+  padding: 0px;
+  text-align: center;
+  font-size: 60px;
+  font-style: Ink Free;
+  color: black;
+}
+header nav{
+ background-color: #372240;
+  overflow: hidden;
+}
+
+header nav a {
+  float: left;
+  color: #F5DD8E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header nav a:hover {
+  background-color: #E07B63;
+  color: #225154;
+}
+
+
+header nav a.active {
+  background-color: #80DB63;
+  color: black;
+}
+
+header nav a.logo{
+float: right; 
+background-color: #80DB63;
+  color: black;
+
+ }
+
+ h1{
+ font-size: 70px;
+}
+
+h3{
+ font-size: 60px;
+}
+ 
+h1,h3{
+text-align: center;
+}
+
+body {
+  background-color: #F5DD8E;
+}
+
+body h2{
+  background-color: #E07B63;
+  cursor: pointer;
+  padding: 18px;
+  width: 97,5%;
+  border: none;
+  text-align: center;
+  outline: none;
+ }
+
+.description{
+ padding:0 20px;
+ font-size: 20px;
+} 
+
+
+.picture {
+ text-align: center;
+}
+ 
+.schedule{
+text-align: center;
+list-style-position: inside;
+ }
+ 
+.schedule h{
+ font-weight: bold;
+ font-size: 20px;
+}
+
+.schedule ul{
+  list-style-type: upper-roman;
+}
+
+footer {
+ background-color: #372240;
+ color:#F5DD8E;
+ text-align: center;
+ font-size: 30px;
+
+}
+
+.course{
+text-align: center;
+padding :20 px, 20px;
+}
+
+  
+
+ 
+
+
+
+

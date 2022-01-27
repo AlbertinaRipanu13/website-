@@ -1,0 +1,130 @@
+CSS-Quiz
+
+header {
+  background-color: #F5DD8E;
+  padding: 0px;
+  text-align: center;
+  font-size: 60px;
+  font-style: Ink Free;
+  color: black;
+}
+header nav{
+ background-color: #372240;
+  overflow: hidden;
+}
+
+header nav a {
+  float: left;
+  color: #F5DD8E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header nav a:hover {
+  background-color: #E07B63;
+  color: #225154;
+}
+
+
+header nav a.active {
+  background-color: #80DB63;
+  color: black;
+}
+
+header nav a.logo{
+float: right; 
+background-color: #80DB63;
+  color: black;
+ }
+
+h1{
+font-style: American Typewriter, serif;
+  text-align: center;
+font-size: 70px;
+}
+
+body {
+  background-color: #F5DD8E;
+}
+
+
+.overlay {
+  position: fixed;
+  bottom: 0;
+  background: #372240 ;
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+p3 {
+padding: 20px,0px;
+}
+
+.container_answer{
+text-align:center;
+}
+/* When you mouse over the container, fade in the overlay title */
+.container_answer:hover .overlay {
+  opacity: 1;
+  position: fixed;
+}
+
+.highlight {
+  background-color: #372240;
+  color: #F5DD8E;
+  font-style: italic;
+}
+
+.container{
+padding:10px,20px,0pc,0px;
+}
+
+.container_photo{ 
+text-align:center;
+}
+
+.container_form{
+text-align:center;
+padding: 30px,0px;
+}
+
+.container_answer{
+text-align:center;
+padding:30px,0px;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container_answer:hover .overlay {
+  opacity: 1;
+  position: fixed;
+}
+
+form label{
+font-size: 30px;}
+
+footer {
+ background-color: #372240;
+ color:#F5DD8E;
+ text-align: center;
+ font-size: 30px;
+
+}
+
+p4{
+font-size: 50px;
+}
+
+@media screen and (min-width: 480px) {
+p4{
+font-size:17px;
+}}
+
+

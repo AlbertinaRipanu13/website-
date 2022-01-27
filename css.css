@@ -1,0 +1,126 @@
+header {
+  background-color: #F5DD8E;
+  padding: 0px;
+  text-align: center;
+  font-size: 60px;
+  font-style: Ink Free;
+  color: black;
+}
+header nav{
+ background-color: #372240;
+  overflow: hidden;
+}
+
+header nav a {
+  float: left;
+  color: #F5DD8E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header nav a:hover {
+  background-color: #E07B63;
+  color: #225154;
+}
+
+
+header nav a.active {
+  background-color: #80DB63;
+  color: black;
+}
+
+header nav a.logo{
+float: right; 
+background-color: #80DB63;
+  color: black;
+ }
+
+h{
+ text-align: center;
+font-size: 60px;
+}
+
+body {
+  background-color: #F5DD8E;
+}
+
+body h2{
+  background-color: #E07B63;
+  cursor: pointer;
+  padding: 18px;
+  width: 97,5%;
+  border: none;
+  text-align: center;
+  outline: none;
+  
+ 
+}
+body p1 {
+  color: black;
+  font-size: 30px;
+}
+
+.description{
+ padding:0 20px;
+ font-size: 20px;
+} 
+
+body p3 {
+  border: solid 2px;
+  font-size: 20px;
+}
+
+figure1 {
+  float: left;
+  border: solid 10px; 
+  border-color: #372240;
+  margin: 5px 5px 5px 5px;
+  padding: 5px;
+}
+
+figure2 {
+  float: left;
+  border: solid 10px; 
+  border-color: #E07B63;
+  margin: 5px 5px 5px 5px;
+  padding: 5px;
+}
+
+
+.poza1{ 
+height: 200px;
+}
+
+.poza1_stanga{
+  float:left;
+width: 70%;
+}
+
+.poza1_dreapta{
+  float:right;
+  width: 30%;
+  }
+
+
+@media (min-width: 600px){
+.poza1_stanga{
+  float:left;
+width: 100%;
+}
+
+.poza1_dreapta{
+  float:right;
+  width: 100%;
+  }
+body{
+    font-size: 150%;
+  }
+}
+
+
+
+
+
+

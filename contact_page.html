@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ <head>
+      <title>Albertina Ripanu</title> 
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css_contact.css">
+  </head> 
+<header>
+  <nav>
+   <a href="index.html">Home</a>
+   <a href="degree_programme.html">Degree</a>
+   <a href="accesibility_page.html">Accesibility</a>
+   <a class="active" href="contact_page.html">Contact</a>
+   <a class="logo" href="#default">Tina's Website</a>
+  </nav> 
+</header>
+
+<body>
+  <p><span class="bold">Name</span> : Albertina-Elena Ripanu</p>
+  <p><span class="bold">Adress</span> :<br>
+ Department of Computer Science <br>
+ The University of Sheffield <br>
+ Regent Court <br>
+ 211 Portobello <br>
+ Sheffield <br>
+ S1 4D <br>
+ UK </p>
+  <p><span class="bold">Email</span> : aeripanu1@sheffield.com</p>
+
+<div class="container_form"> 
+<form name="myform" action="https://www.dcs.shef.ac.uk/cgi-intranet/public/FormMail.php"
+   method="POST">
+  
+   <input type="hidden" name="recipients"
+       value="aeripanu1@sheffield.ac.uk">
+
+    <p>
+   <label for="myemail">Your e-mail:</label>
+   <input type="email" name="myemail" id="myemail"
+   placeholder="type your email..." maxlength="40" size="20"
+   required="required">
+    </p>
+
+   <p>
+  <textarea name="comments" rows="5" cols="50" >Type your comments here...</textarea>
+   </p>
+ 
+  <input type="submit" value="Send">
+ 
+</form>
+</div>
+
+</body>
+
+<footer>
+<figure><img src="logo.jpeg" alt="logo" width="300"></figure>
+<p3>Don't worry.I'll try to answer to your email as soon as possible.</p3>
+</footer>
+
+</html>

@@ -1,0 +1,53 @@
+CSS DATA VISUALISATION
+
+header {
+  background-color: #F5DD8E;
+  padding: 0px;
+  text-align: center;
+  font-size: 60px;
+  font-style: Ink Free;
+  color: black;
+}
+header nav{
+ background-color: #372240;
+  overflow: hidden;
+}
+
+header nav a {
+  float: left;
+  color: #F5DD8E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header nav a:hover {
+  background-color: #E07B63;
+  color: #225154;
+}
+
+
+header nav a.active {
+  background-color: #80DB63;
+  color: black;
+}
+
+header nav a.logo{
+float: right; 
+background-color: #80DB63;
+  color: black;
+ }
+
+h{
+ text-align: center;
+font-size: 60px;
+}
+
+body {
+  background-color: #F5DD8E;
+}
+
+table, th, td {
+  border: 3px solid black;
+}

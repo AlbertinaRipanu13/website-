@@ -1,0 +1,99 @@
+CSS contact
+ header {
+  background-color: #F5DD8E;
+  padding: 0px;
+  text-align: center;
+  font-size: 60px;
+  font-style: Ink Free;
+  color: black;
+}
+header nav{
+ background-color: #372240;
+  overflow: hidden;
+}
+
+header nav a {
+  float: left;
+  color: #F5DD8E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header nav a:hover {
+  background-color: #E07B63;
+  color: #225154;
+}
+
+
+header nav a.active {
+  background-color: #80DB63;
+  color: black;
+
+}
+
+header nav a.logo{
+float: right; 
+background-color: #80DB63;
+  color: black;
+ }
+
+
+body {
+  background-color: #F5DD8E;
+}
+
+input[type=submit]{
+  background-color: #80DB63;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+textarea{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #80DB63;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+textarea:focus, input[type=email]:focus {
+  border: 3px solid #E07B63;
+}
+
+input[type=email] {
+  width: 34%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #80DB63;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+ 
+
+.body p{
+  font-size: 17px;
+  fonT-style: Courier, monospace;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+footer {
+ background-color: #372240;
+ color:#F5DD8E;
+ text-align: center;
+ font-size: 30px;
+}
+

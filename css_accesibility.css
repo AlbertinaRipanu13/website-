@@ -1,0 +1,98 @@
+css accesibility page
+header {
+  background-color: #F5DD8E;
+  padding: 0px;
+  text-align: center;
+  font-size: 60px;
+  font-style: Ink Free;
+  color: black;
+}
+header nav{
+ background-color: #372240;
+  overflow: hidden;
+}
+
+header nav a {
+  float: left;
+  color: #F5DD8E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header nav a:hover {
+  background-color: #E07B63;
+  color: #225154;
+}
+
+header nav a.active {
+  background-color: #80DB63;
+  color: black;
+}
+
+header nav a.logo{
+float: right; 
+background-color: #80DB63;
+  color: black;
+ }
+utrecht
+h{
+ text-align: center;
+font-size: 60px;
+}
+
+body {
+  background-color: #F5DD8E;
+}
+
+footer {
+ background-color: #372240;
+ color:#F5DD8E;
+ text-align: center;
+ font-size: 30px;
+}
+
+.description{
+  padding-top: 0px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+ font-size: 55px;
+
+} 
+.title {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 100px;
+}
+
+h{
+ text-align: center;
+}
+
+.acces{
+ padding-top: 0px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+} 
+
+.acces h{
+font-weight: bold;
+font-size:50px;
+}
+
+acces p{
+font-size:45px;
+}
+
+@media screen and (min-width: 480px) {
+.description{
+ font-size: 20px;
+}
+acces p{
+font-size:25px;
+}
+}

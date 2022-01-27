@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+ <head>
+      <title>Albertin Ripanu</title> 
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css_data.css">
+  </head> 
+<header>
+  <nav>
+   <a href="index.html">Home</a>
+   <a class="active" href="degree_programme.html">Degree</a>
+   <a href="accesibility_page.html">Accesibility</a>
+   <a href="contact_page.html">Contact</a>
+   <a class="logo" href="#default">Tina's Website</a>
+  </nav> 
+</header>
+
+
+ <body>
+<h>This are the number of hours spended daily on each subject. </h><br>
+<br>
+<div>
+<table style="width:100%">
+  <tr>
+    <th>Program</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>  
+    <th>Saturday</th> 
+    <th>Sunday</th>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>3</td>
+    <td>1</td>
+    <td>6</td>
+    <td>3</td>
+    <td>8</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Ruby</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>0</td>
+    <td>8</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td>1.5(1 hr and a half)</td>
+    <td>1</td>
+    <td>0</td>
+    <td>4</td>
+    <td>3.5(3 hrs and a half)</td>
+    <td>2</td>
+    <td>10</td>
+  </tr>
+</table>
+<br>
+<br>
+<div >
+              
+              <canvas id="canvas_java"
+                  width="600" height="350" style = "border: 2px solid black; padding: 10px">
+              </canvas>
+              <ul>
+                  <li>Java=light purple</li>
+                  <li>Ruby=green</li>
+                  <li>Html=dark purple</li><br>
+                  <li>The bar chart shows which subject took more time each day of the week.</li>
+                  <li>The pie chart shows how much time for each subject it took to study it.</li>
+                  <li>The line chart shows the progress in hours (spent daily) on each subject.</li>
+              </ul>
+              
+              <div>
+                <button id = "graph"> Change </button>
+              </div>
+          </div>
+  </body>
+  <script src="javascript.js"></script>
+</html>
